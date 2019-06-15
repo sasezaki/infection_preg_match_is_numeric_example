@@ -10,7 +10,13 @@
         }
     },
     "require-dev": {
-        "infection/infection": "^0.13.2",
-        "phpunit/phpunit": "^8.2"
-    }
+        "phpunit/phpunit": "^8.2",
+        "infection/infection": "dev-preg_match_is_numeric"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/sasezaki/infection.git"
+        }
+    ]
 }
