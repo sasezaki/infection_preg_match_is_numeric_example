@@ -18,5 +18,5 @@ preg_match('/\A[0-9]+\z/', $number);
 ### 3. detect test pattern 
 
 ```
-phpdbg -qrr ./vendor/infection/bin/infection
+phpdbg -qrr ./vendor/infection/infection/bin/infection
 ```
