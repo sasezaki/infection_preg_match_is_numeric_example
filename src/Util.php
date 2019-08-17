@@ -13,6 +13,6 @@ class Util
             return false;
         }
 
-        return preg_match('/\A[0-9]+\z/', $phone_number);
+        return preg_match('/\A[0-9]+\z/', $phone_number) === 1;
     }
 }
